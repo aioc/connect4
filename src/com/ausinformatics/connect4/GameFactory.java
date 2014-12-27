@@ -1,4 +1,4 @@
-package games.connect4;
+package com.ausinformatics.connect4;
 
 import java.util.List;
 import java.util.Random;
@@ -13,7 +13,6 @@ public class GameFactory implements GameBuilder {
 	private int boardHeight = 6;
 	private int boardWidth = 7;
 
-	@Override
 	public GameInstance createGameInstance(List<PersistentPlayer> players) {
 		int randKey = new Random().nextInt();
 

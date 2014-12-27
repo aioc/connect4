@@ -1,4 +1,4 @@
-package games.connect4;
+package com.ausinformatics.connect4;
 
 import core.server.ClientConnection;
 import core.server.DisconnectedException;

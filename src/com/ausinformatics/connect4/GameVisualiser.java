@@ -1,4 +1,4 @@
-package games.connect4;
+package com.ausinformatics.connect4;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

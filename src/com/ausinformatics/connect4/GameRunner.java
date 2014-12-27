@@ -1,4 +1,4 @@
-package games.connect4;
+package com.ausinformatics.connect4;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -48,7 +48,6 @@ public class GameRunner implements GameInstance {
 		}
 	}
 
-	@Override
 	public void begin() {
 		int curPlayer = 0;
 		while (results.size() < players.size() - 1 && !state.isGameOver()) {
@@ -124,12 +123,10 @@ public class GameRunner implements GameInstance {
 		}
 	}
 
-	@Override
 	public void getVisualisation(Graphics g, int width, int height) {
 		visualiser.visualise((Graphics2D) g, width, height);
 	}
 
-	@Override
 	public Map<PersistentPlayer, Integer> getResults() {
 		return results;
 	}
@@ -138,11 +135,9 @@ public class GameRunner implements GameInstance {
 		return 1 << (players.size() - pos - 1);
 	}
 
-	@Override
 	public void handleWindowResize(int w, int h) {
 	}
 
-	@Override
 	public void windowClosed() {
 	}
 }
