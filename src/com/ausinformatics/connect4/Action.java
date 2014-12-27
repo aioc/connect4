@@ -1,7 +1,7 @@
 package com.ausinformatics.connect4;
 
-import core.server.ClientConnection;
-import core.server.DisconnectedException;
+import com.ausinformatics.phais.core.server.ClientConnection;
+import com.ausinformatics.phais.core.server.DisconnectedException;
 
 public class Action {
 

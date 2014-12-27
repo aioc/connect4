@@ -9,7 +9,7 @@ import java.awt.Rectangle;
 import java.awt.geom.Rectangle2D;
 import java.util.List;
 
-import core.interfaces.PersistentPlayer;
+import com.ausinformatics.phais.core.interfaces.PersistentPlayer;
 
 public class GameVisualiser {
 	private static final int BORDER_SIZE = 10;
